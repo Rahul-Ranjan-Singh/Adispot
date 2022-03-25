@@ -53,14 +53,7 @@ class filter_row_widget extends StatelessWidget {
             child: Row(
               children: [
                 Icon(Icons.list),
-                SizedBox(width: 10,),
-                Text(
-                  "Filter",
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 15,
-                  ),
-                )
+                
               ],
             ),
           ),

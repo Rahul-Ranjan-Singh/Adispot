@@ -146,9 +146,9 @@ class _hardware_pageState extends State<hardware_page> {
                     itemCount: product_list.length,
                     scrollDirection: Axis.vertical,
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        childAspectRatio: 0.6,
+                        childAspectRatio: 0.55,
                         crossAxisCount: 2,
-                        crossAxisSpacing: 29.0,
+                        crossAxisSpacing: 24.0,
                         mainAxisSpacing: 30.0),
                     itemBuilder: (BuildContext context, int index) {
                       return product_tile(
