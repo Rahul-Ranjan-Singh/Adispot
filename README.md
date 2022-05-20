@@ -1,18 +1,37 @@
-# adispot
+# Flutter_Rest_Api_integration
 
-A new Flutter project.
+<h4 align="center">Flutter_Rest_Api_integration</a>.</h4>
 
-## Getting Started
+Preview            |
+:-------------------------:|
+![WhatsApp Image 2022-05-20 at 11 21 01 AM](https://user-images.githubusercontent.com/72249692/169466659-2416d2df-3a89-4e1d-92a0-bf35c16975f2.jpeg) |
+![WhatsApp Image 2022-05-20 at 11 21 00 AM](https://user-images.githubusercontent.com/72249692/169466571-dea0d67a-9c38-4e67-90ba-1611c51ca9af.jpeg) |
+![WhatsApp Image 2022-05-20 at 11 21 01 AM (2)](https://user-images.githubusercontent.com/72249692/169466786-4ead9a55-2034-47de-9def-a5cdbc4c4895.jpeg) |
+![WhatsApp Image 2022-05-20 at 11 21 02 AM](https://user-images.githubusercontent.com/72249692/169466874-5dffeb9c-d292-4f34-9bfc-9d72234c41de.jpeg)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## How To Use
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Flutter](https://flutter.dev/docs/get-started/install) installed on your computer. From your command line:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Adispot
-"# Adispot" 
+```bash
+# Clone this repository
+$ git clone https://github.com/Rahul-Ranjan-Singh/FLutter_Api_Integration
+
+## To Run The adispot App
+
+# Go into the repository
+$ cd adispot
+
+# Install dependencies
+$ flutter packages get
+
+# Run the app
+$ flutter run
+
+
+```
+
+### About Me - 
+- [Rahul Ranjan Singh](https://github.com/Rahul-Ranjan-Singh), IT 3rd at ITM Gida
+
