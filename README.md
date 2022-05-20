@@ -4,10 +4,10 @@
 
 Preview            |
 :-------------------------:|
-<img src="![WhatsApp Image 2022-05-20 at 11 21 01 AM](https://user-images.githubusercontent.com/72249692/169466659-2416d2df-3a89-4e1d-92a0-bf35c16975f2.jpeg)" height=300 width=130> |
-<img src="![WhatsApp Image 2022-05-20 at 11 21 00 AM](https://user-images.githubusercontent.com/72249692/169466571-dea0d67a-9c38-4e67-90ba-1611c51ca9af.jpeg)" height=300 width=130> |
-<img src="![WhatsApp Image 2022-05-20 at 11 21 01 AM (2)](https://user-images.githubusercontent.com/72249692/169466786-4ead9a55-2034-47de-9def-a5cdbc4c4895.jpeg)" height=300 width=130> |
-<img src="![WhatsApp Image 2022-05-20 at 11 21 02 AM](https://user-images.githubusercontent.com/72249692/169466874-5dffeb9c-d292-4f34-9bfc-9d72234c41de.jpeg)" height=300 width=130>
+<img src="https://user-images.githubusercontent.com/72249692/169466659-2416d2df-3a89-4e1d-92a0-bf35c16975f2.jpeg" height=300 width=130> | <img src="https://user-images.githubusercontent.com/72249692/169466571-dea0d67a-9c38-4e67-90ba-1611c51ca9af.jpeg" height=300 width=130> | <img src="https://user-images.githubusercontent.com/72249692/169466786-4ead9a55-2034-47de-9def-a5cdbc4c4895.jpeg" height=300 width=130> | <img src="https://user-images.githubusercontent.com/72249692/169466874-5dffeb9c-d292-4f34-9bfc-9d72234c41de.jpeg" height=300 width=130> |
+
+
+
 
 
 ## How To Use
