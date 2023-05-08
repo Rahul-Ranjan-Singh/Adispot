@@ -11,13 +11,14 @@ class grid_img_layout extends StatelessWidget {
       child: Column(children: [
         Container(
           decoration: BoxDecoration(
+            color: Colors.black,
             borderRadius: BorderRadius.all(Radius.circular(12)),
           ),
           height: 61,
           width: 61,
           child: Image.asset(
             img,
-            fit: BoxFit.cover,
+            fit: BoxFit.contain,
           ),
         ),
         

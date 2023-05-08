@@ -21,7 +21,10 @@ class _aapBar_widgetState extends State<aapBar_widget> {
 
           },
       ),
-      title: Image.asset("assets/logo.png", height: 100, width: 126,),
+      title: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 10.0),
+        child: Image.asset("assets/logo_2.png", height: 90, width: 70),
+      ),
       actions: widget.action_icon_list,
       backgroundColor: Colors.white,
     );

@@ -55,6 +55,7 @@ class _hardware_pageState extends State<hardware_page> {
         ),
       ),
       body: SingleChildScrollView(
+        physics: AlwaysScrollableScrollPhysics(parent: BouncingScrollPhysics()),
         child: Column(
           children: [
             SizedBox(

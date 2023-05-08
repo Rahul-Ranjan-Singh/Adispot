@@ -11,7 +11,7 @@ import 'package:adispot/models/homeScreen_carousel_Info.dart';
 import 'package:adispot/widgets/search_field.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-
+import '../DashBoard_screens/parking_list_page.dart';
 import '../../constants.dart';
 import '../../models/grid_img_Info.dart';
 import '../../widgets/appbar.dart';
@@ -35,6 +35,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.white,
       
       body: SingleChildScrollView(
+        physics: AlwaysScrollableScrollPhysics(parent: BouncingScrollPhysics()),
         child: Column(
           children: [
             SizedBox(
@@ -61,7 +62,7 @@ class _HomePageState extends State<HomePage> {
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 25),
                 child: Text(
-                  "Shop By Category",
+                  "Popular Brands",
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w500,
@@ -211,7 +212,7 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "Hardware And Groceries",
+                    "Our Services",
                     style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.w600,
@@ -223,7 +224,7 @@ class _HomePageState extends State<HomePage> {
             Container(
               height: 2,
               width: 115,
-              margin: EdgeInsets.only(top: 50, left: 65),
+              margin: EdgeInsets.only(top: 50, left: 30),
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   colors: [Color(0xFFEA6F11), Colors.blue],
@@ -263,12 +264,12 @@ class _HomePageState extends State<HomePage> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Image.asset(
-                                "assets/hammer.png",
+                                "assets/car_images/nexon.png",
                                 alignment: Alignment.center,
                                 height: 80,
-                                width: 80,
+                                width: 110,
                               ),
-                              Text("Lorem Ipsum",
+                              Text("Car rentals",
                                   style: TextStyle(
                                     fontSize: 16,
                                     fontWeight: FontWeight.w700,
@@ -277,7 +278,7 @@ class _HomePageState extends State<HomePage> {
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  Text("Shop now",
+                                  Text("Discover Now",
                                       style: TextStyle(
                                         fontSize: 13,
                                         fontWeight: FontWeight.w700,
@@ -302,7 +303,7 @@ class _HomePageState extends State<HomePage> {
                 GestureDetector(
                   onTap: (){
                     Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => grocery_page()));
+                    MaterialPageRoute(builder: (context) => parking_list_page()));
                   },
                   child: Container(
                     height: 150,
@@ -321,12 +322,12 @@ class _HomePageState extends State<HomePage> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Image.asset(
-                                "assets/grocery.png",
+                                "assets/parking.png",
                                 alignment: Alignment.center,
                                 height: 80,
-                                width: 80,
+                                width: 110,
                               ),
-                              Text("Lorem Ipsum",
+                              Text("Parking",
                                   style: TextStyle(
                                     fontSize: 16,
                                     fontWeight: FontWeight.w700,
@@ -335,7 +336,7 @@ class _HomePageState extends State<HomePage> {
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  Text("Shop now",
+                                  Text("Discover now",
                                       style: TextStyle(
                                         fontSize: 13,
                                         fontWeight: FontWeight.w700,

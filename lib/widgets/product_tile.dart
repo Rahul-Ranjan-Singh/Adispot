@@ -28,7 +28,7 @@ class product_tile extends StatelessWidget {
                   item.img,
                   height: 136,
                   width: 136,
-                  fit: BoxFit.cover,
+                  fit: BoxFit.contain,
                 ),
               ),
               SizedBox(

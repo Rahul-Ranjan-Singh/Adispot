@@ -20,6 +20,7 @@ class _cartState extends State<cart> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: SingleChildScrollView(
+          physics: AlwaysScrollableScrollPhysics(parent: BouncingScrollPhysics()),
       child: Column(
         children: [
           heading(),

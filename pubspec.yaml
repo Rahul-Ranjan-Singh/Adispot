@@ -29,6 +29,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   get: 4.1.0
+  webview_flutter: ^4.2.0
   carousel_slider: ^4.0.0
 
 dev_dependencies:
@@ -54,6 +55,9 @@ flutter:
     - assets/hardware_product_images/
     - assets/grocery_product_images/
     - assets/icons/
+    - assets/car_images/
+    - assets/car_brands/
+    - assets/parkings/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

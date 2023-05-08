@@ -12,12 +12,12 @@ class getStartedScreen extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
-          decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage("assets/onBoardingAssets/getStarted_BG.jpg"),
-              fit: BoxFit.fill,
-            ),
-          ),
+          // decoration: BoxDecoration(
+          //   image: DecorationImage(
+          //     image: AssetImage("assets/onBoardingAssets/getStarted_BG.jpg"),
+          //     fit: BoxFit.fill,
+          //   ),
+          // ),
           child: Stack(
             children: [
               Container(
@@ -50,7 +50,7 @@ class getStartedScreen extends StatelessWidget {
                   SizedBox(height: 87,),
                   
                   Text(
-                    "Welcome to our store",
+                    "Welcome to Drift Fie",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontFamily: "Poppins",
@@ -67,7 +67,7 @@ class getStartedScreen extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 30),
                     child: Text(
-                      "Providing you with the best equipment for every project.",
+                      "Best Parking and Car Rental Services",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontFamily: "Poppins",

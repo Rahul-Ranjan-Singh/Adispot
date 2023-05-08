@@ -42,23 +42,23 @@ class onBoardingController extends GetxController{
 
     //first OnBoarding Screen Data
     onBoardInfo(
-      'assets/onBoardingAssets/onBoard_page_1_Img.png',
+      'assets/car_images/nexon.png',
       "WE CATER TO YOUR NEEDS",
-      "Providing you with the best equipment for every project."
+      "Providing you the Best Car services"
     ),
     
     //first OnBoarding Screen Data
     onBoardInfo(
-      "assets/onBoardingAssets/onBoard_page_2_Img.png",
-      "WE CATER TO YOUR NEEDS",
-      ""
+      "assets/car_images/kia_sonet.webp",
+      "WE CATER TO YOUR VEHICLE NEEDS",
+      "Proving Best car Rentals"
     ),
 
     //Third OnBoarding Screen Data
     onBoardInfo(
-      "assets/onBoardingAssets/onBoard_page_3_Img.png",
-      "SAFE AND SEAMLESS TRANSACTIONS",
-      "Making hitch-free transactions just got easier."
+      "assets/car_images/nexon.png",
+      "Fast Parking Search",
+      "Making hitch-free Parkings"
     )
   ];
 }

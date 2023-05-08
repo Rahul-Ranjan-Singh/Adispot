@@ -17,7 +17,7 @@ class _HomePage_carousel_cardState extends State<HomePage_carousel_card> {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(9)),
-        // color: Colors.red,
+        color: Colors.black12,
       ),
       margin: EdgeInsets.symmetric(horizontal: 13),
       height: 150,
@@ -38,7 +38,7 @@ class _HomePage_carousel_cardState extends State<HomePage_carousel_card> {
           ),
           Container(
             height: 150,
-            width: MediaQuery.of(context).size.width / 2,
+            width: MediaQuery.of(context).size.width / 2.5,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.only(
                   topRight: Radius.circular(75),

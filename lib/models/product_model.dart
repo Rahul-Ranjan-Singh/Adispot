@@ -1,7 +1,7 @@
 class product{
   String img;
   String product_name;
-  double price;
+  String price;
   double rating;
   int review_count;
   String category;

@@ -50,6 +50,7 @@ class _shop_by_sub_categoryState extends State<shop_by_sub_category> {
       ),
 
         body: SingleChildScrollView(
+          physics: AlwaysScrollableScrollPhysics(parent: BouncingScrollPhysics()),
           child: Container(
             height: MediaQuery.of(context).size.height,
             child: Column(
@@ -68,7 +69,7 @@ class _shop_by_sub_categoryState extends State<shop_by_sub_category> {
                   margin: EdgeInsets.symmetric(horizontal: 15),
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "Shop By Sub Category",
+                    "All Popular Car Brands",
                     style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.w500,
@@ -96,7 +97,7 @@ class _shop_by_sub_categoryState extends State<shop_by_sub_category> {
                   margin: EdgeInsets.symmetric(horizontal: 15),
                   alignment: Alignment.center,
                   child: Text(
-                    "Lorem Ipsum",
+                    "Brands",
                     style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.w400,

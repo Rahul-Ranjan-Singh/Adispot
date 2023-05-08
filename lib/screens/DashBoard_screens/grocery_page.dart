@@ -60,6 +60,7 @@ class _grocery_pageState extends State<grocery_page> {
         ),
       ),
       body: SingleChildScrollView(
+        physics: AlwaysScrollableScrollPhysics(parent: BouncingScrollPhysics()),
         child: Column(
           children: [
             SizedBox(

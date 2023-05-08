@@ -81,25 +81,25 @@ class _menuState extends State<menu> {
           label: "HOME",
           icon: (bottomSelectedIndex==0)? iconImageset("assets/icons/home_selected.png") : iconImageset("assets/icons/home.png") ,
       ),
-      BottomNavigationBarItem(
-        label: "WHATSAPP",
-        icon: iconImageset("assets/icons/watsapp.png"),
-      ),
-      BottomNavigationBarItem(
-          label: "ORDER",
-          icon: iconImageset("assets/icons/order.png"),
-      ),
+      // BottomNavigationBarItem(
+      //   label: "WHATSAPP",
+      //   icon: iconImageset("assets/icons/watsapp.png"),
+      // ),
+      // BottomNavigationBarItem(
+      //     label: "ORDER",
+      //     icon: iconImageset("assets/icons/order.png"),
+      // ),
       BottomNavigationBarItem(
           label: "CART",
           icon: (bottomSelectedIndex==3)? iconImageset("assets/icons/shopping_cart_selected.png") : iconImageset("assets/icons/shopping_cart.png") ,
       ),
-      BottomNavigationBarItem(
-          label: "ACCOUNT",
-          icon: ClipRRect(
-            borderRadius: BorderRadius.all(Radius.circular(20)),
-            child: iconImageset("assets/user.png"),
-          ),
-      ),
+      // BottomNavigationBarItem(
+      //     label: "ACCOUNT",
+      //     icon: ClipRRect(
+      //       borderRadius: BorderRadius.all(Radius.circular(20)),
+      //       child: iconImageset("assets/user.png"),
+      //     ),
+      // ),
     ];
   }
 

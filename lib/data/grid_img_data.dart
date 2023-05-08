@@ -4,68 +4,68 @@ class grid_img_data{
 
   List<grid_img_info> list= [
     grid_img_info(
-      "assets/grid_images/img1.png",
-      "Lorem Ipsum"
+      "assets/car_brands/mercedes.jpg",
+      "Mercedes Benz"
     ),
     grid_img_info(
-      "assets/grid_images/img2.png",
-      "Lorem Ipsum"
+      "assets/car_brands/kia.jpg",
+      "Kia"
     ),
     grid_img_info(
-      "assets/grid_images/img3.png",
-      "Lorem Ipsum"
+      "assets/car_brands/mahindra.jpg",
+      "Mahindra"
     ),
     grid_img_info(
-      "assets/grid_images/img4.png",
-      "Lorem Ipsum"
+      "assets/car_brands/suzuki.webp",
+      "Suzuki"
     ),
     grid_img_info(
-      "assets/grid_images/img5.png",
-      "Lorem Ipsum"
+      "assets/car_brands/tata.jpg",
+      "Tata"
     ),
     grid_img_info(
-      "assets/grid_images/img6.png",
-      "Lorem Ipsum"
+      "assets/car_brands/mg.png",
+      "MG"
     ),
     grid_img_info(
-      "assets/grid_images/img7.png",
-      "Lorem Ipsum"
+      "assets/car_brands/datsun.png",
+      "Datsun"
     ),
     grid_img_info(
-      "assets/grid_images/img8.png",
-      "Lorem Ipsum"
+      "assets/car_brands/hyundai.jpg",
+      "Hyundai"
     ),
     grid_img_info(
-      "assets/grid_images/img1.png",
-      "Lorem Ipsum"
+      "assets/car_brands/mahindra.jpg",
+      "mahindra"
     ),
     grid_img_info(
-      "assets/grid_images/img2.png",
-      "Lorem Ipsum"
+      "assets/car_brands/toyota.webp",
+      "Toyota"
     ),
     grid_img_info(
-      "assets/grid_images/img3.png",
-      "Lorem Ipsum"
+      "assets/car_brands/ford.jpg",
+      "Ford"
     ),
     grid_img_info(
-      "assets/grid_images/img4.png",
-      "Lorem Ipsum"
+      "assets/car_brands/force.png",
+      "Force"
     ),
     grid_img_info(
-      "assets/grid_images/img1.png",
-      "Lorem Ipsum"
+      "assets/car_brands/kia.jpg",
+      "Kia"
     ),
     grid_img_info(
-      "assets/grid_images/img2.png",
-      "Lorem Ipsum"
+      "assets/car_brands/suzuki.webp",
+      "Suzuki"
     ),
     grid_img_info(
-      "assets/grid_images/img3.png",
-      "Lorem Ipsum"
+      "assets/car_brands/force.png",
+      "Force"
     ),
     grid_img_info(
-      "assets/grid_images/img4.png",
-      "Lorem Ipsum"
+      "assets/car_brands/ford.jpg",
+      "Ford"
     ),
 
     
